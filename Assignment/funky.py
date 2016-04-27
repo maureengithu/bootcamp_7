@@ -1,4 +1,5 @@
 def funky(a,b):
+
     if type(a) == str and type(b) == str:
         print (a + b)
 
@@ -13,6 +14,8 @@ def funky(a,b):
 
     else:
         print ("try again")
+
+        
 funky("uptown","funk")
 funky(6,8)
 funky(4.8, 3.3)
@@ -21,6 +24,9 @@ funky("uptown", 8)
 funky(4.9, 8)
 
 a = {"artist": "mark ronson","song": "uptown funk"}
+
 b = {"featuring":"bruno mars", "year": 2015}
+
 a.update(b)
+
 print (a)

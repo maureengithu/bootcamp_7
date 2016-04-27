@@ -25,11 +25,10 @@ def data_type(x):
 		return "boolean"
 
 	elif type (x) == long:
-
+		
 		return "long"
 
 	else:
-		
 		return "Check data type"
 
 print data_type(12)
