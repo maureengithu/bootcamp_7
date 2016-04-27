@@ -13,12 +13,9 @@ while i > 0:
 
 	i -= 1
 
-
-
 for index in range(len(a) - 1, -1, -1):
 
 	print a[index]
-
 
 
 b = [(2,4),(5,10),(6,20),(50,50)]
@@ -36,14 +33,3 @@ for x in b:
 for x, y in b:
 
 	print "x: {}, y: {}".format(x , y)
-
-
-f = [(10,20,40),(10,40),(4,5,50)]
-
-#assignment day_3
-'''
-x: 10, y: 20, z: 40,
-x: 10, y: 40
-
-'''
-

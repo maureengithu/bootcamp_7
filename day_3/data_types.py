@@ -36,4 +36,3 @@ print data_type(12.9)
 print data_type("Kenya")
 print data_type(False)
 print data_type(675**3563)
-

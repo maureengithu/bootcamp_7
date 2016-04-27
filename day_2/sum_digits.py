@@ -11,4 +11,3 @@ def sum_digits(A):
             total += int(l)
             
     return total   
-    
