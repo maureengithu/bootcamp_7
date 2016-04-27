@@ -1,18 +1,23 @@
 def funky(a,b):
 
     if type(a) == str and type(b) == str:
+        
         print (a + b)
 
     elif type(a) == int and type(b) == int:
+        
         print (a + b)
 
     elif type(a) == float and type(b) == float:
+        
         print (a + b)
 
     elif type(a) == list and type(b) == list:
+        
         print (a + b) 
 
     else:
+        
         print ("try again")
 
         

@@ -30,7 +30,5 @@ k = Kenyan('Anita Waiguru', 20)
 k.probe(False)
 
 print "Is {} corrupt? {}".format(k.name, k.is_corrupt())
-
 print k.say_hello()
-#print p.corrupt
 print k.corrupt
