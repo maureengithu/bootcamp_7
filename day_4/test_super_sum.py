@@ -20,3 +20,5 @@ class SuperSumTestCase(TestCase):     #Test Case for super sum.
 
 	def test_sum_of_items_in_one_list(self): #Test sum ofitems in a single list.
 		self.assertEqual(super_sum([1, 2, 3]), 6)
+
+#all methods must start with test.
