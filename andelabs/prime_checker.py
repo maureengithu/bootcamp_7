@@ -1,13 +1,17 @@
-class PrimeChecker():
+class PrimeChecker(object):
+    def __init__(self, number=""):
+         self.number = number
 
-	def __init__(self,number):
-		self.number = number
+    def is_prime(self):
 
-	def is_prime(self,number):
-		if number > 1:
-			for j in range(2, number):
-				if (number % j) == 0:
-					return False
-				return True
-
-print PrimeChecker(30)
+        if self.number != '':
+            x = int(self.number)
+            if x < 2:
+                return True
+            else:
+                for i in range(2,x):
+                    if x % i == 0:
+                        return False
+            return True
+        else:
+            return False
