@@ -1,13 +1,17 @@
  #"olly olly in come free"
 
-def word_occurance(sentence):
+def words(strings):
+
 	occurance = {}
-	for j in sentence.split():
-		try: 
+	for j in strings.split():
+		if j.isdigit():
+			j = int(j)
+
+		if occurance.get(j):
 			occurance[j] += 1
-		except KeyError:
+		else:
 			occurance[j] = 1
-	#for i, j in occurance.iteritems():
+
 	return occurance
 
-print word_occurance("testing 1 2 testing") 
+print words("testing 1 2 testing") 

@@ -9,3 +9,5 @@ class PrimeChecker():
 				if (number % j) == 0:
 					return False
 				return True
+
+print PrimeChecker(30)
