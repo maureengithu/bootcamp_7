@@ -1,22 +1,41 @@
 def find_missing(list1, list2):
+  
   if list1 == [] or list2 == []:
+    
     return 0
   
   j = []
+  
   if len(list1) < len(list2):
+    
     for i in list2:
+      
       if not i in list1:
+        
         j.append(i)
+        
+        return i
+        
     if j == []:
-    	return 0
+      
+      return 0
+      
     return j
       
   else:
-  	for i in list1:
-  		if not i in list2:
-  			j.append(i)
+    
+    for i in list1:
+      
+      if not i in list2:
+        
+        j.append(i)
+        
+        return i
+        
         if j == []:
-        	return 0
+          
+          return 0
+          
         return j
 print find_missing([2], [2])
 print find_missing([4, 6, 8], [4, 6, 8, 10])
